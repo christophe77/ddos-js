@@ -1,0 +1,16 @@
+{
+  "consent": false,
+  "allowlist": [
+    "localhost",
+    "127.0.0.1",
+    "::1",
+    "*.test",
+    "*.local",
+    "*.localhost"
+  ],
+  "caps": {
+    "maxThreads": 50,
+    "maxDurationMs": 60000,
+    "maxConcurrencyPerThread": 200
+  }
+}

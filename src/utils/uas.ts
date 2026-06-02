@@ -4540,5 +4540,5 @@ const uas = [
   'Wget/1.9 cvs-stable (Red Hat modified)',
   'wii libnup/1.0',
 ];
-const randomUserAgent = uas[Math.floor(Math.random() * uas.length)];
-module.exports = randomUserAgent;
+const randomUserAgent: string = uas[Math.floor(Math.random() * uas.length)];
+export default randomUserAgent;
