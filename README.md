@@ -58,6 +58,19 @@ guard, and returns the same typed `LoadReport`.
 | `udpFlood`        | UDP datagram load                                          |
 | `dnsFlood`        | DNS resolution load                                        |
 
+## Install
+
+Not published to npm by design. Install directly from GitHub — the `prepare`
+hook compiles TypeScript to `dist/` automatically on install:
+
+```bash
+# latest on the default branch
+npm install github:christophe77/ddos-js
+
+# pin to a released tag (reproducible)
+npm install github:christophe77/ddos-js#v2.0.0
+```
+
 ## Scripts
 
 ```bash
